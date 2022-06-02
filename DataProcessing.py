@@ -1,3 +1,6 @@
+# Author: Wenxin Zhang
+# This pythong script contains same code as DataProcessing.ipynb except not drawing plots.
+
 import os
 import numpy as np
 import pandas as pd

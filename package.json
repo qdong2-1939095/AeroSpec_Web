@@ -1,0 +1,22 @@
+{
+  "name": "aerospec_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdong2-1939095/AeroSpec_Web.git"
+  },
+  "author": "Qingyuan Dong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qdong2-1939095/AeroSpec_Web/issues"
+  },
+  "homepage": "https://github.com/qdong2-1939095/AeroSpec_Web#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

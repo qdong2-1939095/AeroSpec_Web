@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Author: Qingyuan Dong
+This is the index.html page. It links to a stylesheet styles.css for page style, and a
+javascript file named index.js for all behaviors.
+This is a web page that allows users upload device data(txt files), do analysis based on
+those imported file, and draw digrams to visualize data.
+-->
+<html lang="en" xml:lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Qingyuan Dong">
+    <meta name="description" content="SEAL-AeroSpec WebApp">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <title>AeroSpec WebApp</title>
+  </head>
+
+  <body>
+    <h2>Test</h2>
+
+    <form class="form" id="myForm">
+      <!-- only accept txt file -->
+      <input type="file" id="inpFile" accept=".txt">
+      <br>
+      <button type="submit" id="uploadButton">Upload File</button>
+    </form>
+
+    <div class="dropdown">
+      <button class="dropbtn">Select Charts</button>
+      <div class="dropdown-content">
+        <!-- TODO: Create a "draw" button and a Get method to fetch certain .html image from server
+          for each time that button is clicked(this workflow is sketchy - could improve if have a better logic) -->
+        <!-- <button  onclick="document.getElementById('chart').src = './Figures/measured_type_plot.html'">Chart1</button>
+        <button  onclick="document.getElementById('chart').src = './Figures/lineplt_by_time.html'">Chart2</button> -->
+      </div>
+    </div>
+
+    <!-- TODO: modify the usage of iframe. -->
+    <!-- <center><iframe id ="chart" src="./Figures/lineplt_by_time.html" height="800" width="1000" frameBoard = "0"></iframe>></center> -->
+  </body>
+</html>
